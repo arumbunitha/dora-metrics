@@ -1,6 +1,6 @@
 #!/bin/bash
 
-AWS_REGION="ap-south-1"
+AWS_REGION="ap-southeast-1"
 
 INSTANCE_COUNT=$(aws ec2 describe-instances \
     --region "$AWS_REGION" \
