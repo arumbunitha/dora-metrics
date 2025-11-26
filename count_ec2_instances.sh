@@ -1,4 +1,3 @@
 #!/bin/bash
 
-echo "Triggered by n8n"
-
+echo "Triggered by n8n successfully"
