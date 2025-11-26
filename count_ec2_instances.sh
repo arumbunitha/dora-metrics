@@ -8,5 +8,5 @@ INSTANCE_COUNT=$(aws ec2 describe-instances \
     --query "Reservations[*].Instances[*].InstanceId" \
     --output json | jq length)
 
-echo "Number of running EC2 instances in $AWS_REGION = $INSTANCE_COUNT"
+echo "Triggered by n8n $AWS_REGION = $INSTANCE_COUNT"
 
